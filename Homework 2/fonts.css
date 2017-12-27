@@ -1,0 +1,16 @@
+/*
+	Greg Seda
+	CIS 444 Homework 2
+	fonts.css
+	URL: http://cis444.cs.csusm.edu/seda004/hw2/fonts.css
+*/
+
+dt {
+    font-size: 1em;
+    font-family: "Courier";
+   }
+dd {
+    font-size: 1.1em;
+    font-family: "Times New Roman";
+    font-style: italic;	
+   }
