@@ -1,0 +1,12 @@
+/*
+	Greg Seda
+	CIS 444 Homework 6
+	nfl_styles.css
+	URL: http://cis444.cs.csusm.edu/seda004/hw6/nfl_styles.css
+*/
+
+
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
