@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!--    Greg Seda
+    	CIS444 Homework 5
+	hw5.html
+	URL:	http://cis444.cs.csusm.edu/seda004/hw5/hw5.html
+-->
+
+<html lang="en">
+ 
+<head>
+  <title> Greg Seda Homework 5 </title>
+  <meta charset="utf-8">  
+  <link rel="stylesheet" href="styles.css">
+  <script src="move.js"></script>
+</head>          
+
+ <body onload="initText()">
+   <h1> Moving Text </h1>
+   <form onsubmit="setRange(); return false;">
+   <p id="statement"> Save time with TIME-SAVER 2.2 </p>
+     <br><br>
+   <label for="startCoord"> Left Position: </label><input type="number" id="startCoord" value="0" min="0" onchange="setMinMax()"/>
+    <label for="endCoord"> Right Position: </label><input type="number" id="endCoord" value="900" min="0" onchange="setMinMin()"/>
+    <input type="submit" value="Submit"/>
+     </form>
+  
+</body>
+</html>

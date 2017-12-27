@@ -1,0 +1,15 @@
+/*
+	Greg Seda
+	CIS 444 Homework 5
+	styles.css
+	http://cis444.cs.csusm.edu/seda004/hw5/styles.css
+*/
+#statement {
+  left: 0px;
+  position: absolute; 
+  
+}
+
+input {
+  width: 80px;
+}
