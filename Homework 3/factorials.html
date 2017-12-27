@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- 
+	Greg Seda
+	CIS 444 Homework 3
+	factorials.html 
+     	URL: http://cis444.cs.csusm.edu/seda004/hw3/factorials.html
+-->
+
+<html lang="en">
+
+<head>
+  <title>Greg Seda Homework 3</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="hw3.js"></script>
+</head>
+
+<body>
+  <h1>CIS 444 Homework 3</h1>
+  <table>
+    <caption>Factorials Table</caption>
+    <tr>
+      <th scope="col">Number</th>
+      <th scope="col">Factorial Number</th>
+    </tr>
+
+ <script>
+    var n = window.prompt("Please enter the amount of factorials you would like to be displayed.", n);
+      for (i = 1; i <= n; ++i)
+        document.write("<tr><td>", i, "</td><td>", sFact(i), "</td></tr>");
+    </script>
+
+  </table>
+</body>
+
+</html>

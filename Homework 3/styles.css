@@ -1,0 +1,11 @@
+/*
+	Greg Seda
+	CIS 444 Homework 3
+	styles.css
+	URL: http://cis444.cs.csusm.edu/seda004/hw3/styles.css
+*/ 
+
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+}
