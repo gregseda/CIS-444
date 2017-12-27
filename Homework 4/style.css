@@ -1,0 +1,26 @@
+/*
+	Greg Seda
+	CIS 444 Homework 4
+	style.css
+	URL: http://cis444.cs.csusm.edu/seda004/hw4/style.css
+*/ 
+
+table td, th, tr {
+  border: 1px solid black;
+}
+
+td, caption
+ {
+    font-weight: bold;
+    text-align: center;
+   }
+
+table {
+  width:  250px;
+}
+
+.fruit {
+  width: 50px;
+}
+
+
